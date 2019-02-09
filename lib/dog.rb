@@ -12,5 +12,15 @@ class Dog
     @name = new_name
   end
   
-  def 
+  def initialize(bark)
+    @bark = bark
+  end
+  
+  def bark
+    @bark 
+  end
+  
+  def bark=(woof)
+    @bark = ("woof!")
+  end
 end
